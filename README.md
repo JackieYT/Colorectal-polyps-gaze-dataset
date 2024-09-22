@@ -1,3 +1,9 @@
+# Gaze-based attention network
+Automatic and accurate classification of colorectal polyps based on convolutional neural networks (CNNs) during endoscopy is vital for assisting endoscopists in diagnosis and treatment. However, this task remains challenging due to the difficult data acquisition and annotation process, the poor interpretability, and the weak clinical acceptance of the CNN models. To tackle these dilemmas, we propose an innovative approach that utilizes endoscopists' gaze attention information as an auxiliary supervisory signal to train a CNN-based model for colorectal polyps classification. Specifically, the endoscopists’ gaze information when reading endoscopic images is first recorded through an eye-tracker. Then, the gaze information is processed and applied to supervise the CNN model's attention via an attention consistency module. The proposed gaze-based attention network, as shown in the following figure, contains a classification module and an attention consistency module. 
+![image](https://github.com/user-attachments/assets/5f4dbde2-6e3a-4aca-aaa9-a9e2134be4ac)
+     
+
+
 # Colorectal-polyps-gaze-dataset
 This colorectal polyps-gaze dataset contains NBI images of colorectal polyps and the corresponding gaze attention images (i.e., gaze attention maps and gaze attention heatmaps). 
 All data collection and annotation processes are carried out by following the tenets of the Declaration of Helsinki. 
@@ -12,7 +18,3 @@ In the training and validation sets, we had the original image and the gaze atte
 In the test set, only the original NBI images were included to test the actual performance of the trained models. The download link of the data is as follows:
 Google Drive:https://drive.google.com/file/d/18-U0_Tnxjb07T6wmIIkpJLKTxb-gm-US/view
 
-# Gaze-based attention network
-Automatic and accurate classification of colorectal polyps based on convolutional neural networks (CNNs) during endoscopy is vital for assisting endoscopists in diagnosis and treatment. However, this task remains challenging due to the difficult data acquisition and annotation process, the poor interpretability, and the weak clinical acceptance of the CNN models. To tackle these dilemmas, we propose an innovative approach that utilizes endoscopists' gaze attention information as an auxiliary supervisory signal to train a CNN-based model for colorectal polyps classification. Specifically, the endoscopists’ gaze information when reading endoscopic images is first recorded through an eye-tracker. Then, the gaze information is processed and applied to supervise the CNN model's attention via an attention consistency module. The proposed gaze-based attention network, as shown in the following figure, contains a classification module and an attention consistency module. 
-![image](https://github.com/user-attachments/assets/5f4dbde2-6e3a-4aca-aaa9-a9e2134be4ac)
-     
